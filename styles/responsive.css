@@ -1,0 +1,143 @@
+/* Max */
+@media screen and (max-width: 1200px) {
+  .img-app {
+    right: 3rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-item--text {
+    font-family: "iran-me";
+    font-size: 1.2rem;
+  }
+  .img-app {
+    top: -2rem;
+    right: 6rem;
+    max-width: 29rem;
+  }
+  .question {
+    top: -2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .keeper-main-header-right {
+    align-items: center !important;
+  }
+  .main-header__title {
+    font-size: 2rem;
+  }
+  .info-item--text {
+    font-family: "iran-me";
+    font-size: 1.6rem;
+    max-width: 17rem;
+  }
+  .latest-training__card {
+    max-width: 52rem;
+  }
+  .package2 {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  .app-keeper-title {
+    text-align: center;
+  }
+  .app-btns {
+    justify-content: center !important;
+  }
+  .img-app {
+    top: 0;
+    right: 0;
+    max-width: 29rem;
+    max-height: 34.8rem;
+    margin-top: 1rem;
+  }
+  .app-wrapper-img {
+    justify-content: center !important;
+    width: 55rem;
+  }
+  .app-keeper-img {
+    justify-content: center !important;
+  }
+  .question {
+    top: 0;
+  }
+  .question-text--title,
+  .question-text--caption {
+    text-align: center !important;
+  }
+  .question__btn-call-keeper {
+    text-align: center !important;
+    margin-top: 1.5rem;
+  }
+  .question__btn-call--text {
+    font-size: 1.4rem;
+  }
+  .footer-img__wrapper,
+  .footer-title,
+  .footer-caption,
+  .footer-pages--list,
+  .footer-sections--list,
+  .footer-links--list {
+    text-align: center;
+  }
+  .footer-title {
+    margin-top: 1rem;
+  }
+  .footer-caption {
+    max-width: 56rem;
+  }
+  .footer-left__wrapper {
+    padding: 1rem;
+  }
+  .footer__search {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .categories-card__caption {
+    text-align: center;
+  }
+  .app-btns {
+    justify-content: center !important;
+  }
+  .app-btn__app-store {
+    margin-right: 0.5rem;
+  }
+  .footer-caption {
+    max-width: 47rem;
+    margin: 0 auto;
+  }
+  .categories-card {
+    margin-left: 0 !important;
+  }
+  .app-btn__name-app {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .navbar-btn__login {
+    display: none !important;
+  }
+  .app-btns {
+    justify-content: center !important;
+  }
+}
+/* Min and Max */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card__item--caption-link {
+    font-size: 1.1rem;
+  }
+  .teachers-card__register-btn {
+    font-size: 1.2rem;
+  }
+  .teachers-card__register-btn--text {
+    min-width: 4rem;
+  }
+}

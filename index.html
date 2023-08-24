@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillUp</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-96x96.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/Css/bootstrap.rtl.min.css"
+    />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body dir="rtl">
+    <!-- Start Body -->
+
+    <!-- NAVBAR -->
+    <section class="navbar">
+      <div class="container">
+        <div class="row justify-content-between align-items-center w-100">
+          <div class="col-8 d-xl-flex d-lg-flex d-md-none d-sm-none d-none">
+            <ul
+              class="nav-list d-flex justify-content-start align-items-center list-unstyled m-0"
+            >
+              <li class="nav-list__item">
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="./assets/images/logo-website.png"
+                    style="max-width: 15rem"
+                    alt="logo-website"
+                  />
+                </a>
+              </li>
+              <li class="nav-list__item">
+                <a
+                  href="#"
+                  class="nav-list__item--link text-decoration-none ms-5 active"
+                  >خانه</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a
+                  href="#"
+                  class="nav-list__item--link text-decoration-none ms-5"
+                  >دوره های آموزشی</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a
+                  href="#"
+                  class="nav-list__item--link text-decoration-none ms-5"
+                  >صفحات</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a
+                  href="#"
+                  class="nav-list__item--link text-decoration-none ms-5"
+                  >حساب کاربری</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Menu Hum -->
+          <div
+            class="d-flex justify-content-start align-items-center col-6 col-sm-6 col-md-6 d-lg-none d-xl-none"
+          >
+            <div
+              class="hum-btn d-flex justify-content-center align-items-center"
+            >
+              <div class="hum-btn--line"></div>
+            </div>
+            <img
+              src="./assets/images/logo-website.png"
+              style="max-width: 15rem"
+              alt="logo-website-md"
+            />
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-end align-items-center"
+          >
+            <div
+              class="navbar-btn__login d-flex justify-content-center align-items-center"
+            >
+              <i class="bi bi-box-arrow-in-left d-flex me-2"></i>
+              <p class="navbar-btn__login--text m-0">ورود</p>
+            </div>
+            <div class="navbar-btn__sign-in">
+              <p class="navbar-btn__sign-in--text m-0">ثبت نام</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        class="menu-mobile position-fixed d-flex flex-column align-items-center justify-content-between"
+      >
+        <ul
+          class="list-mobile d-flex flex-column justify-content-between align-items-start list-unstyled"
+        >
+          <li class="list-mobile__item mb-5">
+            <a
+              href="#"
+              class="list-mobile__item--link text-decoration-none text-white"
+              >خانه</a
+            >
+          </li>
+          <li class="list-mobile__item mb-5">
+            <a
+              href="#"
+              class="list-mobile__item--link text-decoration-none text-white"
+              >دوره های آموزشی</a
+            >
+          </li>
+          <li class="list-mobile__item mb-5">
+            <a
+              href="#"
+              class="list-mobile__item--link text-decoration-none text-white"
+              >صفحات</a
+            >
+          </li>
+          <li class="list-mobile__item mb-5">
+            <a
+              href="#"
+              class="list-mobile__item--link text-decoration-none text-white"
+              >حساب کاربری</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HEADER -->
+    <section class="header">
+      <section class="main-header">
+        <div class="container">
+          <div class="row pt-5 justify-content-center align-items-center">
+            <div
+              class="keeper-main-header-right col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-start align-items-start"
+            >
+              <div class="main-header__top-title">
+                <p class="main-header__top-title--text m-0">
+                  طرح تخفیف تابستان آموزشی
+                </p>
+              </div>
+              <h2 class="main-header__title">
+                در بین هزاران ساعت آموزش جستجو کنید...
+              </h2>
+              <p class="main-header__caption">
+                مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                باشد.
+              </p>
+              <div
+                class="main-header__search d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center w-100 ps-3"
+                >
+                  <i class="bi bi-search me-2"></i>
+                  <input
+                    class="input-search"
+                    placeholder="نام دوره آموزش..."
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="main-header__search-btn d-flex justify-content-center align-items-center"
+                >
+                  <p class="main-header__search-btn--text m-0 text-white">
+                    جستجو
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-end">
+              <img
+                src="./assets/images/banner-photo.png"
+                class="img-banner img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Information -->
+    <section class="info bg-white mt-5">
+      <div class="container">
+        <div
+          class="row info-score--keeper flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row align-items-center shadow rounded-3 position-relative"
+        >
+          <div
+            class="col-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row justify-content-evenly align-items-center"
+          >
+            <div class="info-score d-flex flex-column align-items-center">
+              <h4 class="info-score--top">4.7</h4>
+              <div
+                class="info-score--stars d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-star-fill me-2 text-warning"></i>
+                <i class="bi bi-star-fill me-2 text-warning"></i>
+                <i class="bi bi-star-fill me-2 text-warning"></i>
+                <i class="bi bi-star-fill me-2 text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="info-score--bottom m-0">3,272 امتیاز</p>
+            </div>
+          </div>
+          <div
+            class="col-10 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row justify-content-evenly align-items-strat align-items-sm-start align-items-md-center align-items-lg-center align-items-xl-center"
+          >
+            <div
+              class="info-item d-flex justify-content-start align-items-center mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0"
+            >
+              <div
+                class="info-item__keeper-icon d-flex justify-content-center align-items-center rounded-circle"
+              >
+                <i class="bi bi-stack d-flex"></i>
+              </div>
+              <h6 class="info-item--text">بهترین آموزش غیرحضوری</h6>
+            </div>
+            <div
+              class="info-item d-flex justify-content-start align-items-center mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0"
+            >
+              <div
+                class="info-item__keeper-icon2 d-flex justify-content-center align-items-center rounded-circle"
+              >
+                <i class="bi bi-briefcase-fill d-flex"></i>
+              </div>
+              <h6 class="info-item--text">دسترسی مادام العمر</h6>
+            </div>
+            <div
+              class="info-item d-flex justify-content-start align-items-center mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0"
+            >
+              <div
+                class="info-item__keeper-icon3 d-flex justify-content-center align-items-center rounded-circle"
+              >
+                <i class="bi bi-person-fill-lock d-flex"></i>
+              </div>
+              <h6 class="info-item--text">بیش از 800 شرکت کننده</h6>
+            </div>
+            <div
+              class="info-item d-flex justify-content-start align-items-center mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0"
+            >
+              <div
+                class="info-item__keeper-icon4 d-flex justify-content-center align-items-center rounded-circle"
+              >
+                <i class="bi bi-book-half d-flex"></i>
+              </div>
+              <h6 class="info-item--text">200+ دوره دردسترس</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- latest training -->
+    <section class="latest-training">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-12 d-flex justify-content-center align-items-center text-center"
+          >
+            <h3 class="latest-training__title m-0">
+              جدیدترین آموزش های<span> رایگان</span>
+            </h3>
+          </div>
+          <div
+            class="col-12 d-flex justify-content-center align-items-center text-center"
+          >
+            <p class="latest-training__caption">
+              با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="latest-training__card d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="latest-training__card-wrapper d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="latest-training__card--item d-flex flex-column swiper-slide"
+                >
+                  <div class="card__item--img">
+                    <img
+                      src="./assets/images/cr-2.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div
+                      class="circle-white--right d-flex justify-content-center align-items-center"
+                    >
+                      <i class="bi bi-play-fill d-flex"></i>
+                    </div>
+                    <div
+                      class="circle-white--left d-flex justify-content-center align-items-center"
+                    >
+                      <i class="bi bi-lock-fill d-flex"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="card__item--job-price d-flex justify-content-between align-items-center"
+                  >
+                    <div
+                      class="card__item--job1 d-flex justify-content-center align-items-center rounded-pill"
+                    >
+                      <p class="card__item--job-text1 m-0">برنامه نویسی</p>
+                    </div>
+                    <div class="card__item--price">
+                      <p class="card__item--price-text m-0">
+                        <span>149</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                  <h4 class="card__item--caption">
+                    <a
+                      href="#"
+                      class="card__item--caption-link text-decoration-none"
+                      >آموزش ساخت فروشگاه دیجی استایل با لاراول</a
+                    >
+                  </h4>
+                  <div
+                    class="card__item--time d-flex justify-content-start align-items-center"
+                  >
+                    <div
+                      class="card__item--time-info d-flex justify-content-start align-items-center me-5"
+                    >
+                      <i class="bi bi-clock-fill d-flex me-2"></i>
+                      <p class="card__item--time-text m-0">2 ساعت 5 دقیقه</p>
+                    </div>
+                    <div
+                      class="card__item--time-video d-flex justify-content-start align-items-center"
+                    >
+                      <i class="bi bi-camera-video-fill d-flex me-2"></i>
+                      <p class="card__item--time-video-text m-0">17 دوره</p>
+                    </div>
+                  </div>
+                  <div
+                    class="progress mt-4"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 50%"></div>
+                  </div>
+                  <div
+                    class="card-item__user d-flex justify-content-between align-items-center mt-4 border-top pt-3 pb-0"
+                  >
+                    <div
+                      class="card-item__user-img d-flex justify-content-center align-items-center"
+                    >
+                      <img
+                        src="./assets/images/user-1.jpg"
+                        class="img-fluid rounded-circle"
+                        alt="user-1"
+                      />
+                    </div>
+                    <div
+                      class="card-item__user-views d-flex justify-content-start align-items-center"
+                    >
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center me-4"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-person-fill d-flex"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          4.7K
+                        </p>
+                      </div>
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center me-4"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-eye-fill d-flex"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          42.2K
+                        </p>
+                      </div>
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-star-fill d-flex text-warning"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          4.7K
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="latest-training__card d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="latest-training__card-wrapper d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="latest-training__card--item d-flex flex-column swiper-slide"
+                >
+                  <div class="card__item--img">
+                    <img
+                      src="./assets/images/cr-3.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div
+                      class="circle-white--right d-flex justify-content-center align-items-center"
+                    >
+                      <i class="bi bi-play-fill d-flex"></i>
+                    </div>
+                    <div
+                      class="circle-white--left d-flex justify-content-center align-items-center"
+                    >
+                      <i class="bi bi-lock-fill d-flex"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="card__item--job-price d-flex justify-content-between align-items-center"
+                  >
+                    <div
+                      class="card__item--job2 d-flex justify-content-center align-items-center"
+                    >
+                      <p class="card__item--job-text2 m-0">مالی</p>
+                    </div>
+                    <div class="card__item--price">
+                      <p class="card__item--price-text m-0">
+                        <span>99</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                  <h4 class="card__item--caption">
+                    <a
+                      href="#"
+                      class="card__item--caption-link text-decoration-none"
+                      >دوره حضوری عالی پرورش مدیر مالی</a
+                    >
+                  </h4>
+                  <div
+                    class="card__item--time d-flex justify-content-start align-items-center"
+                  >
+                    <div
+                      class="card__item--time-info d-flex justify-content-start align-items-center me-5"
+                    >
+                      <i class="bi bi-clock-fill d-flex me-2"></i>
+                      <p class="card__item--time-text m-0">8 ساعت</p>
+                    </div>
+                    <div
+                      class="card__item--time-video d-flex justify-content-start align-items-center"
+                    >
+                      <i class="bi bi-camera-video-fill d-flex me-2"></i>
+                      <p class="card__item--time-video-text m-0">32 دوره</p>
+                    </div>
+                  </div>
+                  <div
+                    class="progress mt-4"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 75%"></div>
+                  </div>
+                  <div
+                    class="card-item__user d-flex justify-content-between align-items-center mt-4 border-top pt-3 pb-0"
+                  >
+                    <div
+                      class="card-item__user-img d-flex justify-content-center align-items-center"
+                    >
+                      <img
+                        src="./assets/images/user-2.jpg"
+                        class="img-fluid rounded-circle"
+                        alt="user-1"
+                      />
+                    </div>
+                    <div
+                      class="card-item__user-views d-flex justify-content-start align-items-center"
+                    >
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center me-4"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-person-fill d-flex"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          4.7K
+                        </p>
+                      </div>
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center me-4"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-eye-fill d-flex"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          42.2K
+                        </p>
+                      </div>
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-star-fill d-flex text-warning"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          4.7K
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="latest-training__card d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="latest-training__card-wrapper d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="latest-training__card--item d-flex flex-column swiper-slide"
+                >
+                  <div class="card__item--img">
+                    <img
+                      src="./assets/images/cr-6.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div
+                      class="circle-white--right d-flex justify-content-center align-items-center"
+                    >
+                      <i class="bi bi-play-fill d-flex"></i>
+                    </div>
+                    <div
+                      class="circle-white--left d-flex justify-content-center align-items-center"
+                    >
+                      <i class="bi bi-lock-fill d-flex"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="card__item--job-price d-flex justify-content-between align-items-center"
+                  >
+                    <div
+                      class="card__item--job3 d-flex justify-content-center align-items-center"
+                    >
+                      <p class="card__item--job-text3 m-0">فیزیک</p>
+                    </div>
+                    <div class="card__item--price">
+                      <p class="card__item--price-text m-0">
+                        <span>399</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                  <h4 class="card__item--caption">
+                    <a
+                      href="#"
+                      class="card__item--caption-link text-decoration-none"
+                      >تدریس ریاضی و آمار دهم انسانی</a
+                    >
+                  </h4>
+                  <div
+                    class="card__item--time d-flex justify-content-start align-items-center"
+                  >
+                    <div
+                      class="card__item--time-info d-flex justify-content-start align-items-center me-5"
+                    >
+                      <i class="bi bi-clock-fill d-flex me-2"></i>
+                      <p class="card__item--time-text m-0">10 ساعت</p>
+                    </div>
+                    <div
+                      class="card__item--time-video d-flex justify-content-start align-items-center"
+                    >
+                      <i class="bi bi-camera-video-fill d-flex me-2"></i>
+                      <p class="card__item--time-video-text m-0">19 دوره</p>
+                    </div>
+                  </div>
+                  <div
+                    class="progress mt-4"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                  <div
+                    class="card-item__user d-flex justify-content-between align-items-center mt-4 border-top pt-3 pb-0"
+                  >
+                    <div
+                      class="card-item__user-img d-flex justify-content-center align-items-center"
+                    >
+                      <img
+                        src="./assets/images/user-5.jpg"
+                        class="img-fluid rounded-circle"
+                        alt="user-1"
+                      />
+                    </div>
+                    <div
+                      class="card-item__user-views d-flex justify-content-start align-items-center"
+                    >
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center me-4"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-person-fill d-flex"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          4.7K
+                        </p>
+                      </div>
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center me-4"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-eye-fill d-flex"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          42.2K
+                        </p>
+                      </div>
+                      <div
+                        class="card-item__user-views--buyer d-flex justify-content-center align-items-center"
+                      >
+                        <div
+                          class="card-item__user-views--buyer-icon rounded-circle me-2"
+                        >
+                          <i class="bi bi-star-fill d-flex text-warning"></i>
+                        </div>
+                        <p class="card-item__user-views--buyer-text m-0">
+                          4.7K
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- List of teachers -->
+    <section class="teachers">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <h3
+              class="teachers-title d-flex justify-content-center align-items-center"
+            >
+              لیست مدرسین<span class="ms-2">پیشنهادی</span>
+            </h3>
+          </div>
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <p class="teachers-caption m-0 text-center">
+              با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div
+              class="teachers-card d-flex flex-column justify-content-center align-items-center"
+            >
+              <a href="#" class="teacher-card__img--link"
+                ><img
+                  src="./assets/images/t-1.png"
+                  class="img-fluid"
+                  alt="t-image"
+              /></a>
+              <div
+                class="teachers-info d-flex flex-column justify-content-center align-items-center mt-5"
+              >
+                <div class="teachers-job">
+                  <p class="teachers-job--text m-0">مؤلف و مدرس شیمی کنکور</p>
+                </div>
+                <a
+                  href="#"
+                  class="teachers-name m-0 d-block text-decoration-none"
+                  >مرضیه قاسمی نیا</a
+                >
+                <div
+                  class="teachers-score d-flex justify-content-center align-items-center"
+                >
+                  <div class="teachers-score--stars">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                  </div>
+                  <p class="teachers-score--comment mb-0 ms-2">
+                    (244 نظر ثبت شده)
+                  </p>
+                </div>
+              </div>
+              <div
+                class="teachers-card__register d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="teachers-card__register-user d-flex justify-content-start align-items-center"
+                >
+                  <i
+                    class="bi bi-person-fill bi-person-fill-register d-flex me-2"
+                  ></i>
+                  <p class="teachers-card__register-user--info m-0">
+                    2.5 شرکت کننده
+                  </p>
+                </div>
+                <div
+                  class="teachers-card__register-btn d-flex justify-content-center align-items-center"
+                >
+                  <p class="teachers-card__register-btn--text m-0">ثبت نام</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div
+              class="teachers-card d-flex flex-column justify-content-center align-items-center"
+            >
+              <a href="#" class="teacher-card__img--link"
+                ><img
+                  src="./assets/images/t-2.png"
+                  class="img-fluid"
+                  alt="t-image"
+              /></a>
+              <div
+                class="teachers-info d-flex flex-column justify-content-center align-items-center mt-5"
+              >
+                <div class="teachers-job">
+                  <p class="teachers-job--text m-0">مدرس برتر ریاضی و فیزیک</p>
+                </div>
+                <a
+                  href="#"
+                  class="teachers-name m-0 d-block text-decoration-none"
+                  >نادیا ناصری</a
+                >
+                <div
+                  class="teachers-score d-flex justify-content-center align-items-center"
+                >
+                  <div class="teachers-score--stars">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                  </div>
+                  <p class="teachers-score--comment mb-0 ms-2">
+                    (244 نظر ثبت شده)
+                  </p>
+                </div>
+              </div>
+              <div
+                class="teachers-card__register d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="teachers-card__register-user d-flex justify-content-start align-items-center"
+                >
+                  <i
+                    class="bi bi-person-fill bi-person-fill-register d-flex me-2"
+                  ></i>
+                  <p class="teachers-card__register-user--info m-0">
+                    2.5 شرکت کننده
+                  </p>
+                </div>
+                <div
+                  class="teachers-card__register-btn d-flex justify-content-center align-items-center"
+                >
+                  <p class="teachers-card__register-btn--text m-0">ثبت نام</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div
+              class="teachers-card d-flex flex-column justify-content-center align-items-center"
+            >
+              <a href="#" class="teacher-card__img--link"
+                ><img
+                  src="./assets/images/t-3.png"
+                  class="img-fluid"
+                  alt="t-image"
+              /></a>
+              <div
+                class="teachers-info d-flex flex-column justify-content-center align-items-center mt-5"
+              >
+                <div class="teachers-job">
+                  <p class="teachers-job--text m-0">مدرس برتر شیمی</p>
+                </div>
+                <a
+                  href="#"
+                  class="teachers-name m-0 d-block text-decoration-none"
+                  >سروش نجفی نژاد</a
+                >
+                <div
+                  class="teachers-score d-flex justify-content-center align-items-center"
+                >
+                  <div class="teachers-score--stars">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                  </div>
+                  <p class="teachers-score--comment mb-0 ms-2">
+                    (244 نظر ثبت شده)
+                  </p>
+                </div>
+              </div>
+              <div
+                class="teachers-card__register d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="teachers-card__register-user d-flex justify-content-start align-items-center"
+                >
+                  <i
+                    class="bi bi-person-fill bi-person-fill-register d-flex me-2"
+                  ></i>
+                  <p class="teachers-card__register-user--info m-0">
+                    2.5 شرکت کننده
+                  </p>
+                </div>
+                <div
+                  class="teachers-card__register-btn d-flex justify-content-center align-items-center"
+                >
+                  <p class="teachers-card__register-btn--text m-0">ثبت نام</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected categories -->
+    <section class="categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <h3 class="categories-title text-capitalize">
+              دسته بندی های <span>منتخب</span>
+            </h3>
+          </div>
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <p class="categories-caption m-0 text-center">
+              با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+          </div>
+        </div>
+        <div class="row categories-card__keeper">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-code"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">
+                  برنامه نویسی
+                </h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-window-restore"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">
+                  طراحی سایت
+                </h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-leaf"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">سبک زندگی</h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-heartbeat"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">
+                  علوم انسانی
+                </h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-landmark"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">
+                  بورس و بازار سهام
+                </h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-photo-video"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">
+                  طراحی و گرافیک
+                </h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-stamp"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">
+                  مالی و حسابداری
+                </h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div
+              class="categories-card d-flex flex-column justify-content-between align-items-center bg-white me-3"
+            >
+              <div
+                class="categories-card--title d-flex justify-content-between align-items-center w-100"
+              >
+                <i class="fa fa-school"></i>
+                <div class="categories-card--title-view">
+                  <a href="#" class="categories-card--title-view-link"
+                    >مشاهده</a
+                  >
+                  <i class="bi bi-chevron-double-left"></i>
+                </div>
+              </div>
+              <div
+                class="categories-card__caption d-flex flex-column justify-content-start align-items-center"
+              >
+                <h4 class="categories-card__caption--title w-100">مدیریت</h4>
+                <p class="categories-card__caption--info m-0">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت است
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teaching package -->
+    <section class="package">
+      <div class="container">
+        <div class="row">
+          <div class="co-12 d-flex justify-content-center align-items-center">
+            <h4 class="package-title">پکیج تدریس <span>غیرحضوری</span></h4>
+          </div>
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <p class="package-caption m-0 text-center">
+              با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+          </div>
+        </div>
+        <div class="row g-5 mt-5">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="package-card d-flex flex-column">
+              <div
+                class="package-card__title d-flex flex-column justify-content-center align-items-center"
+              >
+                <h4 class="package-card__title-level">پایه</h4>
+                <h2 class="package-card__title-price"><span>29</span> تومان</h2>
+                <p class="package-card__title-user m-0">
+                  به ازای هر کاربر، در ماه
+                </p>
+              </div>
+              <div
+                class="package-card__attributes d-flex flex-column justify-content-start align-items-start"
+              >
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    گارانتی 100% آپتایم
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    200 گیگابایت پهنای باند CDN
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    20 گیگابایت فضای ذخیره سازی ابری
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--iconx-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-x"></i>
+                  </div>
+                  <p class="package-card__attributes-item--textx m-0 ms-3">
+                    پشتیبانی آنلاین
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--iconx-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-x"></i>
+                  </div>
+                  <p class="package-card__attributes-item--textx m-0 ms-3">
+                    SLA سازمانی
+                  </p>
+                </div>
+              </div>
+              <div
+                class="package-card__btn d-flex justify-content-center align-items-center mt-4"
+              >
+                <p class="package-card__btn--text m-0">خرید و فعالسازی</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 package2">
+            <div class="package-card text-center">
+              <div class="package-card__proposal">
+                <p class="m-0">پیشنهاد هفته</p>
+              </div>
+              <div
+                class="package-card__title d-flex flex-column justify-content-center align-items-center"
+              >
+                <h4 class="package-card__title-level">نقره ای</h4>
+                <h2 class="package-card__title-price"><span>49</span> تومان</h2>
+                <p class="package-card__title-user m-0">
+                  به ازای هر کاربر، در ماه
+                </p>
+              </div>
+              <div
+                class="package-card__attributes d-flex flex-column justify-content-start align-items-start"
+              >
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    گارانتی 100% آپتایم
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    200 گیگابایت پهنای باند CDN
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    20 گیگابایت فضای ذخیره سازی ابری
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    پشتیبانی آنلاین
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--iconx-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-x"></i>
+                  </div>
+                  <p class="package-card__attributes-item--textx m-0 ms-3">
+                    SLA سازمانی
+                  </p>
+                </div>
+              </div>
+              <div
+                class="package-card__btn package-card__btn-active d-flex justify-content-center align-items-center mt-4"
+              >
+                <p class="package-card__btn--text m-0">خرید و فعالسازی</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="package-card d-flex flex-column">
+              <div
+                class="package-card__title d-flex flex-column justify-content-center align-items-center"
+              >
+                <h4 class="package-card__title-level">طلایی</h4>
+                <h2 class="package-card__title-price"><span>79</span> تومان</h2>
+                <p class="package-card__title-user m-0">2 کاربر، در ماه</p>
+              </div>
+              <div
+                class="package-card__attributes d-flex flex-column justify-content-start align-items-start"
+              >
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    گارانتی 100% آپتایم
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    200 گیگابایت پهنای باند CDN
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    20 گیگابایت فضای ذخیره سازی ابری
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    پشتیبانی آنلاین
+                  </p>
+                </div>
+                <div
+                  class="package-card__attributes-item d-flex justify-content-start align-items-center mt-5 mb-2"
+                >
+                  <div
+                    class="package-card__attributes-item--icon-keeper d-flex justify-content-start align-items-center text-start"
+                  >
+                    <i class="bi bi-check-lg d-flex"></i>
+                  </div>
+                  <p class="package-card__attributes-item--text m-0 ms-3">
+                    SLA سازمانی
+                  </p>
+                </div>
+              </div>
+              <div
+                class="package-card__btn d-flex justify-content-center align-items-center mt-4"
+              >
+                <p class="package-card__btn--text m-0">خرید و فعالسازی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Students -->
+    <section class="student">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <h4 class="student-title">نظرات <span>دانش آموختگان</span></h4>
+          </div>
+          <div
+            class="col-12 d-flex justify-content-center align-items-center text-center"
+          >
+            <p class="student-caption m-0">
+              با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row student-card__keeper"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex flex-column mt-5"
+          >
+            <div
+              class="student-card bg-white d-flex flex-column justify-content-start align-items-start"
+            >
+              <div
+                class="student-card__user d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="student-card__user-info d-flex justify-content-start align-items-center"
+                >
+                  <img
+                    src="./assets/images/st-1.jpg"
+                    class="student-card__user-info--img"
+                    alt="student-img"
+                  />
+                  <div class="student-card__user-info--name ms-2">
+                    <h5 class="student-name">سعید مرادی</h5>
+                    <p class="student-job m-0">موسس گوگل</p>
+                    <div
+                      class="student-card__user-info--name-socre d-inline-flex justify-content-center align-items-center"
+                    >
+                      <i
+                        class="bi bi-star-fill d-flex bi-star-fill-student me-2"
+                      ></i>
+                      <p class="m-0">4.9</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="student-card__user-mastery d-flex justify-content-end w-100"
+                >
+                  <img src="./assets/images/in.png" alt="skype-img" />
+                </div>
+              </div>
+              <p class="student-card__caption mb-0 mt-3">
+                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex flex-column mt-5"
+          >
+            <div
+              class="student-card bg-white d-flex flex-column justify-content-start align-items-start"
+            >
+              <div
+                class="student-card__user d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="student-card__user-info d-flex justify-content-start align-items-center"
+                >
+                  <img
+                    src="./assets/images/st-2.jpg"
+                    class="student-card__user-info--img"
+                    alt="student-img"
+                  />
+                  <div class="student-card__user-info--name ms-2">
+                    <h5 class="student-name">الهام نجفی</h5>
+                    <p class="student-job m-0">مدیر عامل اپل</p>
+                    <div
+                      class="student-card__user-info--name-socre d-inline-flex justify-content-center align-items-center"
+                    >
+                      <i
+                        class="bi bi-star-fill d-flex bi-star-fill-student me-2"
+                      ></i>
+                      <p class="m-0">4.5</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="student-card__user-mastery d-flex justify-content-end w-100"
+                >
+                  <img src="./assets/images/do.png" alt="do-img" />
+                </div>
+              </div>
+              <p class="student-card__caption mb-0 mt-3">
+                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex flex-column mt-5"
+          >
+            <div
+              class="student-card bg-white d-flex flex-column justify-content-start align-items-start"
+            >
+              <div
+                class="student-card__user d-flex justify-content-between align-items-center w-100"
+              >
+                <div
+                  class="student-card__user-info d-flex justify-content-start align-items-center"
+                >
+                  <img
+                    src="./assets/images/st-3.jpg"
+                    class="student-card__user-info--img"
+                    alt="student-img"
+                  />
+                  <div class="student-card__user-info--name ms-2">
+                    <h5 class="student-name">زهرا حسینی</h5>
+                    <p class="student-job m-0">مدیر لینکدین</p>
+                    <div
+                      class="student-card__user-info--name-socre d-inline-flex justify-content-center align-items-center"
+                    >
+                      <i
+                        class="bi bi-star-fill d-flex bi-star-fill-student me-2"
+                      ></i>
+                      <p class="m-0">4.7</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="student-card__user-mastery d-flex justify-content-end w-100"
+                >
+                  <img src="./assets/images/figma.png" alt="figma-img" />
+                </div>
+              </div>
+              <p class="student-card__caption mb-0 mt-3">
+                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download App -->
+    <section class="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+            <div class="app-keeper-title">
+              <h3 class="app-title">دانلود اپلیکیشن</h3>
+              <p class="app-caption">
+                با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت
+                می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و
+                شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
+                دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
+                اساسا مورد استفاده قرار گیرد.
+              </p>
+              <div
+                class="app-btns d-flex justify-content-start align-items-center"
+              >
+                <div
+                  class="app-btn__app-store d-flex justify-content-start align-items-center me-3"
+                >
+                  <img
+                    src="./assets/images/apple.png"
+                    class="me-2"
+                    alt="apple-icon"
+                  />
+                  <div class="app-btn__app-store--text">
+                    <span class="text-white">دانلود از</span>
+                    <p class="app-btn__name-app m-0 text-white">App Store</p>
+                  </div>
+                </div>
+                <div
+                  class="app-btn__google-play d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/google-play.png"
+                    class="me-2"
+                    alt="apple-icon"
+                  />
+                  <div class="app-btn__app-store--text">
+                    <span class="text-white">دانلود از</span>
+                    <p class="app-btn__name-app m-0 text-white">Google Store</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-end app-wrapper-img"
+          >
+            <div class="app-keeper-img">
+              <img
+                src="./assets/images/app.png"
+                class="img-fluid img-app"
+                alt="img-app"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question -->
+    <section class="question">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+            <div
+              class="question-text d-flex flex-column justify-content-start align-items-center"
+            >
+              <h3 class="question-text--title text-start w-100">
+                آیا سوالی دارید؟
+              </h3>
+              <p class="question-text--caption text-start w-100">
+                ما به شما کمک خواهیم کرد تا شغل و رشد خود را افزایش دهید.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-end question__btn-call-keeper"
+          >
+            <div
+              class="question__btn-call d-inline-flex justify-content-end align-items-center"
+            >
+              <p class="question__btn-call--text m-0">
+                امروز با ما تماس بگیرید
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="row g-5">
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 footer-right__wrapper"
+          >
+            <div class="footer-img__wrapper w-100">
+              <img
+                src="./assets/images/logo-light-footer.png"
+                class="img-fluid footer-logo mb-2"
+                alt=""
+              />
+            </div>
+            <h4 class="footer-title mb-4">
+              آیا به کمک تیم پشتیبانی<br />نیاز دارید؟
+            </h4>
+            <p class="footer-caption">
+              هر ماه با عضویت در خبرنامه ما از به‌روزرسانی‌ها، معاملات جدید،
+              آموزش‌ها و تخفیف‌ها باخبر شوید.
+            </p>
+            <div
+              class="footer__search d-flex justify-content-center align-items-center"
+            >
+              <input type="text" placeholder="ایمیل" class="w-100" />
+              <div
+                class="footer__search-btn d-flex justify-content-center align-items-center"
+              >
+                <p class="footer__search-btn--text m-0">عضویت</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 footer-left__wrapper"
+          >
+            <ul class="footer-pages--list list-unstyled">
+              <h4 class="footer-pages--list-title">صفحات</h4>
+              <li class="footer-pages--item d-block">
+                <a href="#" class="footer-pages--item-link text-decoration-none"
+                  >صفحه اصلی</a
+                >
+              </li>
+              <li class="footer-pages--item d-block">
+                <a href="#" class="footer-pages--item-link text-decoration-none"
+                  >درباره ما</a
+                >
+              </li>
+              <li class="footer-pages--item d-block">
+                <a href="#" class="footer-pages--item-link text-decoration-none"
+                  >خدمات</a
+                >
+              </li>
+              <li class="footer-pages--item d-block">
+                <a href="#" class="footer-pages--item-link text-decoration-none"
+                  >دوره های آموزشی</a
+                >
+              </li>
+              <li class="footer-pages--item d-block">
+                <a href="#" class="footer-pages--item-link text-decoration-none"
+                  >تماس با ما</a
+                >
+              </li>
+              <li class="footer-pages--item d-block">
+                <a href="#" class="footer-pages--item-link text-decoration-none"
+                  >لیست وبلاگ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 footer-left__wrapper"
+          >
+            <ul class="footer-sections--list list-unstyled">
+              <h4 class="footer-sections--list-title">تمام بخش ها</h4>
+              <li class="footer-sections--item d-block">
+                <a
+                  href="#"
+                  class="footer-sections--item-link text-decoration-none"
+                  >منو<span class="new">جدید</span></a
+                >
+              </li>
+              <li class="footer-sections--item d-block">
+                <a
+                  href="#"
+                  class="footer-sections--item-link text-decoration-none"
+                  >ویژگی های جذاب</a
+                >
+              </li>
+              <li class="footer-sections--item d-block">
+                <a
+                  href="#"
+                  class="footer-sections--item-link text-decoration-none"
+                  >المان ها<span class="new">جدید</span></a
+                >
+              </li>
+              <li class="footer-sections--item d-block">
+                <a
+                  href="#"
+                  class="footer-sections--item-link text-decoration-none"
+                  >نظرات کاربران</a
+                >
+              </li>
+              <li class="footer-sections--item d-block">
+                <a
+                  href="#"
+                  class="footer-sections--item-link text-decoration-none"
+                  >ویدئو</a
+                >
+              </li>
+              <li class="footer-sections--item d-block">
+                <a
+                  href="#"
+                  class="footer-sections--item-link text-decoration-none"
+                  >فوتر</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 footer-left__wrapper"
+          >
+            <ul class="footer-links--list list-unstyled">
+              <h4 class="footer-links--list-title">لینک های مفید</h4>
+              <li class="footer-links--item d-block">
+                <a href="#" class="footer-links--item-link text-decoration-none"
+                  >درباره ما</a
+                >
+              </li>
+              <li class="footer-links--item d-block">
+                <a href="#" class="footer-links--item-link text-decoration-none"
+                  >وبلاگ</a
+                >
+              </li>
+              <li class="footer-links--item d-block">
+                <a href="#" class="footer-links--item-link text-decoration-none"
+                  >قیمت گذاری</a
+                >
+              </li>
+              <li class="footer-links--item d-block">
+                <a href="#" class="footer-links--item-link text-decoration-none"
+                  >ثبت نام</a
+                >
+              </li>
+              <li class="footer-links--item d-block">
+                <a href="#" class="footer-links--item-link text-decoration-none"
+                  >ورود به حساب</a
+                >
+              </li>
+              <li class="footer-links--item d-block">
+                <a href="#" class="footer-links--item-link text-decoration-none"
+                  >پشتیبانی <span class="update">بروزرسانی</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./assets/bootstrap/Js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d20fee9c98.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Finish Body -->
+  </body>
+</html>

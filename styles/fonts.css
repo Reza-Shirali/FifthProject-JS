@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "iran-re";
+  src: url("../assets/fonts/IRANSansX-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "iran-me";
+  src: url("../assets/fonts/IRANSansX-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "iran-bo";
+  src: url("../assets/fonts/IRANSansX-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "vazir-re";
+  src: url("../assets/fonts/Vazir-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "vazir-bo";
+  src: url("../assets/fonts/Vazir-Bold.ttf") format("truetype");
+}
